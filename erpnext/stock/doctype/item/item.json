@@ -1,9 +1,10 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:item_code",
- "creation": "2013-05-03 10:45:46",
+ "creation": "2025-10-17 10:32:45.775035",
  "description": "A Product or a Service that is bought, sold or kept in stock.",
  "doctype": "DocType",
  "document_type": "Setup",
@@ -116,7 +117,9 @@
   "customer_code",
   "default_item_manufacturer",
   "default_manufacturer_part_no",
-  "total_projected_qty"
+  "total_projected_qty",
+  "route",
+  "is_published"
  ],
  "fields": [
   {
@@ -888,14 +891,27 @@
    "fieldname": "deferred_accounting_section",
    "fieldtype": "Section Break",
    "label": "Deferred Accounting"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "is Published"
   }
  ],
+ "has_web_view": 1,
  "icon": "fa fa-tag",
- "idx": 2,
  "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2025-08-08 14:58:48.674193",
+ "modified": "2025-10-17 10:32:45.775035",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item",
@@ -960,6 +976,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "item-list",
  "row_format": "Dynamic",
  "search_fields": "item_name,description,item_group,customer_code",
  "show_name_in_global_search": 1,

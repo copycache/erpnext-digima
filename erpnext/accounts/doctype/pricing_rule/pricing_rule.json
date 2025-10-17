@@ -207,7 +207,7 @@
    "fieldname": "other_item_code",
    "fieldtype": "Link",
    "label": "Item Code",
-   "options": "Item"
+   "options": "Happy Med Item"
   },
   {
    "depends_on": "eval:doc.apply_rule_on_other == 'Item Group'",
@@ -463,7 +463,7 @@
    "fieldname": "free_item",
    "fieldtype": "Link",
    "label": "Free Item",
-   "options": "Item"
+   "options": "Happy Med Item"
   },
   {
    "default": "0",
@@ -657,7 +657,7 @@
  "icon": "fa fa-gift",
  "idx": 1,
  "links": [],
- "modified": "2025-08-20 11:40:07.096854",
+ "modified": "2025-10-16 17:25:26.770662",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Pricing Rule",
@@ -714,6 +714,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

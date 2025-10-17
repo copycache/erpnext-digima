@@ -136,7 +136,7 @@
    "label": "Item",
    "oldfieldname": "item_code",
    "oldfieldtype": "Link",
-   "options": "Item",
+   "options": "Happy Med Item",
    "search_index": 1
   },
   {
@@ -983,13 +983,14 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-12 16:33:55.503777",
+ "modified": "2025-10-16 17:25:25.742902",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice Item",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []

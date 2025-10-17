@@ -280,7 +280,7 @@
   }
  ],
  "links": [],
- "modified": "2025-08-20 11:48:23.231081",
+ "modified": "2025-10-16 17:25:51.995084",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Promotional Scheme",
@@ -335,7 +335,9 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
